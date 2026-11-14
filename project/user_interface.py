@@ -13,7 +13,7 @@ if "messages" not in st.session_state:
 
 st.sidebar.markdown("**TAX HELPER**")
 st.sidebar.markdown("")
-st.sidebar.markdown("**Answer Lanquage**")
+st.sidebar.markdown("**Answer Language**")
 lang = st.sidebar.radio("**Select your language for answer:**", ["Urdu", "English"])
 lang = lang.lower()
 st.sidebar.markdown("")
