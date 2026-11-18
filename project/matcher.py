@@ -85,7 +85,7 @@ def get_answer(vectorizer, training_matrix, question, lang, id_dataset, df):
     if cos_ans > 0.3:
         for key,value in df.iterrows():
             if value["id"] == id:
-                if lang == "urdu":
+                if lang == "roman urdu":
                     return id, value["answer_ur"]
                 else:
                     return id, value["answer_en"]
