@@ -47,7 +47,7 @@ else:
 
 if question:
     ans = get_answer(vectorizer, training_matrix, question, lang, id_dataset, df)
-    st.session_state["messages"].append({"user": question, "bot": ans, "id": ans["id"], "source": ans["source"], "last_checked": ans["last_checked"], "score": ans["score"], "matched_question": ans["matched question"]})
+    st.session_state["messages"].append({"user": question, "bot": ans["answer"], "id": ans["id"], "source": ans["source"], "last_checked": ans["last_checked"], "score": ans["score"], "matched_question": ans["matched question"]})
 
 for chat_line in st.session_state["messages"]:
     with st.chat_message("user"):
@@ -58,7 +58,7 @@ for chat_line in st.session_state["messages"]:
         st.caption("Source: " + chat_line["source"])
         st.caption("Last checked: " + chat_line["last_checked"])
         with st.expander("Why this answer?"):
-            st.write("matched question" + chat_line["matched_question"])
+            st.write("matched question: " + chat_line["matched_question"])
             st.write(f"Score: {chat_line["score"] * 100:.2f}%")
 
 
