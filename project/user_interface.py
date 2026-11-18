@@ -17,9 +17,6 @@ st.sidebar.markdown("**Answer Lanquage**")
 lang = st.sidebar.radio("**Select your language for answer:**", ["English", "Roman Urdu"])
 lang = lang.lower()
 st.sidebar.markdown("")
-st.sidebar.slider("Confidence threshold: ", 0.0, 1.0, 0.3, disabled = True)
-st.sidebar.caption("Below this score, the bot says it doesn’t know.")
-st.sidebar.markdown("")
 with st.sidebar:
     with st.container():
         st.markdown("**Try asking**")
@@ -30,6 +27,12 @@ with st.sidebar:
 clr_chat = st.sidebar.button("**Clear chat**")
 if clr_chat:
     st.session_state["messages"] = []
+
+st.sidebar.markdown("")
+st.sidebar.markdown("**Developer Settings**")
+st.sidebar.markdown("")
+threshold_score = st.sidebar.slider("Confidence threshold: ", 0.0, 1.0, 0.3)
+st.sidebar.caption("Below this score, the bot says it doesn’t know.")
 
 st.title("Pakistan Tax & Freelancer FAQ Bot")
 st.markdown("**Ask about NTN, filing returns, PSEB registration and receiving foreign payments. Answers in English or Roman Urdu.**")
@@ -46,7 +49,7 @@ else:
     question = st.chat_input("Ask a question: ")
 
 if question:
-    ans = get_answer(vectorizer, training_matrix, question, lang, id_dataset, df)
+    ans = get_answer(vectorizer, training_matrix, question, lang, id_dataset, df, threshold_score)
     st.session_state["messages"].append({"user": question, "bot": ans["answer"], "id": ans["id"], "source": ans["source"], "last_checked": ans["last_checked"], "score": ans["score"], "matched_question": ans["matched question"]})
 
 for chat_line in st.session_state["messages"]:
