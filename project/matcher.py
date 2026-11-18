@@ -82,7 +82,13 @@ def get_answer(vectorizer, training_matrix, question, lang, id_dataset, df, thre
     cos_ans = cos_list.max()
     id = id_dataset[ans_pos]
 
-    if cos_ans > threshold_score:
+    label = None
+    if cos_ans >= 0.4:
+        if cos_ans >= 0.6:
+            label = "High match"
+        else:
+            label = "Closest match, not fully sure"
+
         for key,value in df.iterrows():
             if value["id"] == id:
                 if lang == "roman urdu":
@@ -91,21 +97,24 @@ def get_answer(vectorizer, training_matrix, question, lang, id_dataset, df, thre
                             "source": value["source_line"],
                             "last_checked": value["last_verified"],
                             "score": cos_ans,
-                            "matched question": value["question"]}
+                            "matched question": value["question"],
+                            "label": label}
                 else:
                     return {"id": id,
                             "answer": value["answer_en"],
                             "source": value["source_line"],
                             "last_checked": value["last_verified"],
                             "score": cos_ans,
-                            "matched question": value["question"]}
+                            "matched question": value["question"],
+                            "label": label}
     else:
         return {"id": 0,
                 "answer": "I'm not sure this answers your question. Try asking it another way.",
                 "source": "",
                 "last_checked": "",
                 "score": "",
-                "matched question": ""}
+                "matched question": "",
+                "label": "Can't help with this"}
 
 
 def evaluate(vectorizer, training_dataset, questions_dataset, id_dataset, df):
