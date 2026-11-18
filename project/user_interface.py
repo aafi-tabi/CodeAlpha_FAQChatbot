@@ -14,7 +14,7 @@ if "messages" not in st.session_state:
 st.sidebar.markdown("**TAX HELPER**")
 st.sidebar.markdown("")
 st.sidebar.markdown("**Answer Language**")
-lang = st.sidebar.radio("**Select your language for answer:**", ["Roman Urdu", "English"])
+lang = st.sidebar.radio("**Select your language for answer:**", ["English", "Roman Urdu"])
 lang = lang.lower()
 st.sidebar.markdown("")
 st.sidebar.slider("Confidence threshold: ", 0.0, 1.0, 0.3, disabled = True)
