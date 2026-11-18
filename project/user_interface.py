@@ -29,11 +29,9 @@ if clr_chat:
     st.session_state["messages"] = []
 
 st.sidebar.markdown("")
-with st.expander():
-    st.markdown("**Developer Settings**")
-    st.sidebar.markdown("")
-    threshold_score = st.sidebar.slider("Confidence threshold: ", 0.0, 1.0, 0.3)
-    st.sidebar.caption("Below this score, the bot says it doesn’t know.")
+with st.sidebar.expander("Developer Settings"):
+    threshold_score = st.slider("Confidence threshold: ", 0.0, 1.0, 0.3)
+    st.caption("Below this score, the bot says it doesn’t know.")
 
 st.title("Pakistan Tax & Freelancer FAQ Bot")
 st.markdown("**Ask about NTN, filing returns, PSEB registration and receiving foreign payments. Answers in English or Roman Urdu.**")
