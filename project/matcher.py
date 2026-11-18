@@ -91,22 +91,31 @@ def get_answer(vectorizer, training_matrix, question, lang, id_dataset, df, thre
 
         for key,value in df.iterrows():
             if value["id"] == id:
-                if lang == "roman urdu":
-                    return {"id": id,
-                            "answer": value["answer_ur"],
-                            "source": value["source_line"],
-                            "last_checked": value["last_verified"],
-                            "score": cos_ans,
-                            "matched question": value["question"],
-                            "label": label}
+                if value["id"] == 0:
+                    return {"id": 0,
+                            "answer": "I'm not sure this answers your question. Try asking it another way.",
+                            "source": "",
+                            "last_checked": "",
+                            "score": "",
+                            "matched question": "",
+                            "label": "Can't help with this"}
                 else:
-                    return {"id": id,
-                            "answer": value["answer_en"],
-                            "source": value["source_line"],
-                            "last_checked": value["last_verified"],
-                            "score": cos_ans,
-                            "matched question": value["question"],
-                            "label": label}
+                    if lang == "roman urdu":
+                        return {"id": id,
+                                "answer": value["answer_ur"],
+                                "source": value["source_line"],
+                                "last_checked": value["last_verified"],
+                                "score": cos_ans,
+                                "matched question": value["question"],
+                                "label": label}
+                    else:
+                        return {"id": id,
+                                "answer": value["answer_en"],
+                                "source": value["source_line"],
+                                "last_checked": value["last_verified"],
+                                "score": cos_ans,
+                                "matched question": value["question"],
+                                "label": label}
     else:
         return {"id": 0,
                 "answer": "I'm not sure this answers your question. Try asking it another way.",
