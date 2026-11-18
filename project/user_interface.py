@@ -57,11 +57,11 @@ for chat_line in st.session_state["messages"]:
     with st.container():
         with st.chat_message("assistant"):
             st.write(chat_line["bot"])
-        st.caption("Source: " + chat_line["source"])
-        st.caption("Last checked: " + chat_line["last_checked"])
-        with st.expander("Why this answer?"):
-            st.write("matched question: " + chat_line["matched_question"])
             if chat_line["id"] != 0:
+                st.caption("Source: " + chat_line["source"])
+                st.caption("Last checked: " + chat_line["last_checked"])
+                with st.expander("Why this answer?"):
+                    st.write("matched question: " + chat_line["matched_question"])
                     st.write(f"Score: {chat_line["score"] * 100:.2f}%")
 
 
