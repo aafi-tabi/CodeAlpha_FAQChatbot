@@ -70,9 +70,9 @@ for chat_line in st.session_state["messages"]:
             st.write(chat_line["label"])
             st.write("I can only answer questions about Pakistan tax and freelancing.")
             with st.expander("Try asking about one of these:"):
-                st.markdown("● " + "** NTN**")
-                st.write("● " + "** Filing returns**")
-                st.write("● " + "** PSEB registration**")
+                st.markdown("●  " + "**NTN**")
+                st.write("●  " + "**Filing returns**")
+                st.write("●  " + "**PSEB registration**")
                 
 
 
