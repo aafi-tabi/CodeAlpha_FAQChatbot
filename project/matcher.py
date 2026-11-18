@@ -115,7 +115,7 @@ def evaluate(vectorizer, training_dataset, questions_dataset, id_dataset, df):
     print((passed/total) * 100)
 
 def load_bot():
-    dataframe = read(Path(__file__).parent / "faqs_new.csv")
+    dataframe = read(Path(__file__).parent / "faqs_new_updated.csv")
     df = clean_variants(dataframe)
     pairs = build_enteries(df)
     pair, training_dataset, id_dataset = preprocess(pairs)
