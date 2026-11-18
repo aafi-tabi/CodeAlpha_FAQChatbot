@@ -86,18 +86,33 @@ def get_answer(vectorizer, training_matrix, question, lang, id_dataset, df):
         for key,value in df.iterrows():
             if value["id"] == id:
                 if lang == "roman urdu":
-                    return id, value["answer_ur"]
+                    return {"id": id,
+                            "answer": value["answer_ur"],
+                            "source": value["source_line"],
+                            "last_checked": value["last_verified"],
+                            "score": cos_ans,
+                            "matched question": value["question"]}
                 else:
-                    return id, value["answer_en"]
+                    return {"id": id,
+                            "answer": value["answer_en"],
+                            "source": value["source_line"],
+                            "last_checked": value["last_verified"],
+                            "score": cos_ans,
+                            "matched question": value["question"]}
     else:
-        return 0, "Bot is not sure about this!"
+        return {"id": 0,
+                "answer": "I'm not sure this answers your question. Try asking it another way.",
+                "source": None,
+                "last_checked": None,
+                "score": None,
+                "matched question": None}
 
 
 def evaluate(vectorizer, training_dataset, questions_dataset, id_dataset, df):
     passed = 0
     failed = 0
     for key,value in questions_dataset.iterrows():
-        id, ans = get_answer(vectorizer, training_dataset, value["test_question"], value["lang"], id_dataset, df)
+        ans = get_answer(vectorizer, training_dataset, value["test_question"], value["lang"], id_dataset, df)
         if value["expected_faq_id"] != "NONE":
             if id == int(value["expected_faq_id"]):
                 print("test case passed")
