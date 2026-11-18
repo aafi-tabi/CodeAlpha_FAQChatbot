@@ -74,7 +74,7 @@ def train(data_set):
     return training_matrix, vectorizer
 
 
-def get_answer(vectorizer, training_matrix, question, lang, id_dataset, df):
+def get_answer(vectorizer, training_matrix, question, lang, id_dataset, df, threshold_score):
     _,processed_question,_ = preprocess([[question,0]])
     q_vector = vectorizer.transform(processed_question)
     cos_list = cosine_similarity(training_matrix, q_vector)
@@ -82,7 +82,7 @@ def get_answer(vectorizer, training_matrix, question, lang, id_dataset, df):
     cos_ans = cos_list.max()
     id = id_dataset[ans_pos]
 
-    if cos_ans > 0.3:
+    if cos_ans > threshold_score:
         for key,value in df.iterrows():
             if value["id"] == id:
                 if lang == "roman urdu":
@@ -102,10 +102,10 @@ def get_answer(vectorizer, training_matrix, question, lang, id_dataset, df):
     else:
         return {"id": 0,
                 "answer": "I'm not sure this answers your question. Try asking it another way.",
-                "source": None,
-                "last_checked": None,
-                "score": None,
-                "matched question": None}
+                "source": "",
+                "last_checked": "",
+                "score": "",
+                "matched question": ""}
 
 
 def evaluate(vectorizer, training_dataset, questions_dataset, id_dataset, df):
