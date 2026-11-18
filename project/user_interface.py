@@ -29,7 +29,7 @@ if clr_chat:
     st.session_state["messages"] = []
 
 st.sidebar.markdown("")
-st.sidebar.markdown("**Developer Settings**")
+st.sidebar.expander(st.markdown("**Developer Settings**"))
 st.sidebar.markdown("")
 threshold_score = st.sidebar.slider("Confidence threshold: ", 0.0, 1.0, 0.3)
 st.sidebar.caption("Below this score, the bot says it doesn’t know.")
