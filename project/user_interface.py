@@ -13,7 +13,7 @@ if "messages" not in st.session_state:
 
 st.sidebar.markdown("**TAX HELPER**")
 st.sidebar.markdown("")
-st.sidebar.markdown("**Answer Language**")
+st.sidebar.markdown("**Answer Lanquage**")
 lang = st.sidebar.radio("**Select your language for answer:**", ["English", "Roman Urdu"])
 lang = lang.lower()
 st.sidebar.markdown("")
@@ -46,13 +46,20 @@ else:
     question = st.chat_input("Ask a question: ")
 
 if question:
-    id, ans = get_answer(vectorizer, training_matrix, question, lang, id_dataset, df)
-    st.session_state["messages"].append({"user": question, "bot": ans})
+    ans = get_answer(vectorizer, training_matrix, question, lang, id_dataset, df)
+    st.session_state["messages"].append({"user": question, "bot": ans, "id": id, "source": ans["source"], "last_checked": ans["last_checked"], "score": ans["score"], "matched_question": ans["matched question"]})
 
 for chat_line in st.session_state["messages"]:
     with st.chat_message("user"):
         st.write(chat_line["user"])
-    with st.chat_message("assistant"):
-        st.write(chat_line["bot"])
+    with st.container():
+        with st.chat_message("assistant"):
+            st.write(chat_line["bot"])
+        st.caption("Source: " + chat_line["source"])
+        st.caption("Last checked: " + chat_line["last_checked"])
+        with st.expander("Why this answer?"):
+            st.write("matched question" + chat_line["matched_question"])
+            st.write(f"Score: {chat_line["score"] * 100:.2f}%")
+
 
 
