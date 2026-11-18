@@ -68,11 +68,11 @@ for chat_line in st.session_state["messages"]:
     else:
         with st.container():
             st.write(chat_line["label"])
-            st.write("I can only answer questions about Pakistan tax and freelancing. Try asking about one of these:")
-            with st.container():
-                st.write("NTN")
-                st.write("Filing returns")
-                st.write("PSEB registration")
+            st.write("I can only answer questions about Pakistan tax and freelancing.")
+            with st.expander("Try asking about one of these:"):
+                st.markdown("● " + "**NTN**")
+                st.write("● " + "**Filing returns**")
+                st.write("● " + "**PSEB registration**")
                 
 
 
