@@ -47,7 +47,7 @@ else:
 
 if question:
     ans = get_answer(vectorizer, training_matrix, question, lang, id_dataset, df)
-    st.session_state["messages"].append({"user": question, "bot": ans, "id": id, "source": ans["source"], "last_checked": ans["last_checked"], "score": ans["score"], "matched_question": ans["matched question"]})
+    st.session_state["messages"].append({"user": question, "bot": ans, "id": ans["id"], "source": ans["source"], "last_checked": ans["last_checked"], "score": ans["score"], "matched_question": ans["matched question"]})
 
 for chat_line in st.session_state["messages"]:
     with st.chat_message("user"):
