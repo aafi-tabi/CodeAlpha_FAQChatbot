@@ -8,9 +8,10 @@ Built for the **CodeAlpha Artificial Intelligence Internship** (Task 2: Chatbot 
 
 > **Disclaimer:** This bot gives general information only, not tax advice. Tax rules change with each Finance Act. Always confirm current rates and deadlines on [fbr.gov.pk](https://fbr.gov.pk).
 
-![Confident answer](screenshots/answer.png)
-![Closest match, not fully sure](screenshots/closest_match.png)
-![Refusal with suggested topics](screenshots/refusal.png)
+![Confident answer](Screenshots/answer.png)
+![Closest match, not fully sure](Screenshots/closest_match_1.png)
+![Closest match, not fully sure](Screenshots/closest_match_2.png)
+![Refusal with suggested topics](Screenshots/refusal.png)
 
 ---
 
@@ -228,8 +229,10 @@ NLTK data (`punkt`, `punkt_tab`, `stopwords`, `wordnet`) downloads when `matcher
 │   ├── faq_test_questions.csv      # earlier test set (181 questions, overlaps phrasings)
 │   ├── faq_test_questions_new.csv  # extra test set (20 questions)
 ├── .streamlit/config.toml          # theme settings
+├── Screenshots/                    # app screenshots used in this README
 ├── requirements.txt
 └── README.md
+
 ```
 
 ## Future improvements
