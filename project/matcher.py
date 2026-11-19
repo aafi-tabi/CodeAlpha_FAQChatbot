@@ -83,7 +83,7 @@ def get_answer(vectorizer, training_matrix, question, lang, id_dataset, df, thre
     id = id_dataset[ans_pos]
 
     label = None
-    if cos_ans >= 0.4:
+    if cos_ans >= threshold_score:
         if cos_ans >= 0.6:
             label = "High match"
         else:
@@ -117,36 +117,14 @@ def get_answer(vectorizer, training_matrix, question, lang, id_dataset, df, thre
                                 "matched question": value["question"],
                                 "label": label}
     else:
-        return {"id": 0,
-                "answer": "I'm not sure this answers your question. Try asking it another way.",
-                "source": "",
-                "last_checked": "",
-                "score": "",
-                "matched question": "",
-                "label": "Can't help with this"}
-
-
-def evaluate(vectorizer, training_dataset, questions_dataset, id_dataset, df):
-    passed = 0
-    failed = 0
-    for key,value in questions_dataset.iterrows():
-        ans = get_answer(vectorizer, training_dataset, value["test_question"], value["lang"], id_dataset, df)
-        if value["expected_faq_id"] != "NONE":
-            if id == int(value["expected_faq_id"]):
-                print("test case passed")
-                passed = passed + 1
-            else: 
-                if id == 0:
-                    passed = passed + 1
-                else:
-                    failed = failed + 1
-        else:
-            print("Unexpected test case")
-            passed = passed + 1
-
-    total = passed + failed
-    print((passed/total) * 100)
-
+       return {"id": 0,
+            "answer": "I'm not sure this answers your question. Try asking it another way.",
+            "source": "",
+            "last_checked": "",
+            "score": "",
+            "matched question": "",
+            "label": "Can't help with this"} 
+                
 def load_bot():
     dataframe = read(Path(__file__).parent / "faqs_new_updated.csv")
     df = clean_variants(dataframe)
@@ -175,8 +153,6 @@ def load_bot():
 if __name__ == "__main__":
     id_dataset, df, training_matrix, vectorizer = load_bot()
 
-# id_dataset, df, training_matrix, vectorizer = load_bot()
-# testcase = read("faq_test_questions.csv")
-# print(testcase.info())
-# evaluate(vectorizer, training_matrix, testcase, id_dataset, df)
+
+
 
