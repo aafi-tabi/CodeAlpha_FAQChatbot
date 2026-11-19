@@ -1,0 +1,182 @@
+﻿test_id,test_question,test_type,expected_faq_id,expected_category,expected_behavior,lang
+1,Can you explain what a National Tax Number is?,Paraphrase (English),1,Registration,Should answer FAQ #1,english
+2,"Ye NTN exactly hota kya hai, mujhe samajh nahi aata",Roman Urdu,1,Registration,Should answer FAQ #1,urdu
+3,wat is ntn,Short / typo,1,Registration,Should answer FAQ #1,english
+4,Is the number on my CNIC the same thing as my tax number?,Indirect / scenario,1,Registration,Should answer FAQ #1,english
+5,Am I required to have an NTN if I work from home?,Paraphrase (English),2,Registration,Should answer FAQ #2,english
+6,Mujhe NTN banwana parega ya nahi?,Roman Urdu,2,Registration,Should answer FAQ #2,urdu
+7,ntn lazmi hai kya,Short / typo,2,Registration,Should answer FAQ #2,urdu
+8,"I just started a small online business, do I need to be registered with FBR?",Indirect / scenario,2,Registration,Should answer FAQ #2,english
+9,What is the process to get an NTN through the internet?,Paraphrase (English),3,Registration,Should answer FAQ #3,english
+10,"Online NTN kaise banta hai, step bata dein",Roman Urdu,3,Registration,Should answer FAQ #3,urdu
+11,ntn registraton online,Short / typo,3,Registration,Should answer FAQ #3,english
+12,"I want to become a taxpayer from my phone, where do I start?",Indirect / scenario,3,Registration,Should answer FAQ #3,english
+13,Which papers should I keep ready before applying for an NTN?,Paraphrase (English),4,Registration,Should answer FAQ #4,english
+14,NTN banane ke liye kaun kaun se kaghzat chahiye?,Roman Urdu,4,Registration,Should answer FAQ #4,urdu
+15,ntn docs,Short / typo,4,Registration,Should answer FAQ #4,english
+16,Do I need my electricity bill or bank statement to register?,Indirect / scenario,4,Registration,Should answer FAQ #4,english
+17,Tell me about the IRIS portal of FBR,Paraphrase (English),5,Registration,Should answer FAQ #5,english
+18,IRIS portal kya cheez hai?,Roman Urdu,5,Registration,Should answer FAQ #5,urdu
+19,iris fbr,Short / typo,5,Registration,Should answer FAQ #5,english
+20,What is that website where people file taxes in Pakistan?,Indirect / scenario,5,Registration,Should answer FAQ #5,english
+21,"I forgot my IRIS password, how can I recover access?",Paraphrase (English),6,Registration,Should answer FAQ #6,english
+22,"IRIS ka password bhool gaya hun, kaise reset karun?",Roman Urdu,6,Registration,Should answer FAQ #6,urdu
+23,iris login nai ho raha,Short / typo,6,Registration,Should answer FAQ #6,urdu
+24,"My IRIS account is not letting me sign in, what should I do?",Indirect / scenario,6,Registration,Should answer FAQ #6,english
+25,How can I change my mobile number on my IRIS account?,Paraphrase (English),7,Registration,Should answer FAQ #7,english
+26,IRIS par apna phone number kaise change karun?,Roman Urdu,7,Registration,Should answer FAQ #7,urdu
+27,update iris profile,Short / typo,7,Registration,Should answer FAQ #7,english
+28,"The OTP is going to my old SIM, how do I fix that on IRIS?",Indirect / scenario,7,Registration,Should answer FAQ #7,english
+29,Does FBR charge money to issue an NTN?,Paraphrase (English),8,Registration,Should answer FAQ #8,english
+30,NTN banwane ki koi fees lagti hai?,Roman Urdu,8,Registration,Should answer FAQ #8,urdu
+31,ntn free hai?,Short / typo,8,Registration,Should answer FAQ #8,urdu
+32,Is it free to get a tax number or do agents take payment?,Indirect / scenario,8,Registration,Should answer FAQ #8,english
+33,Which people are legally obliged to submit an income tax return?,Paraphrase (English),9,Filing returns,Should answer FAQ #9,english
+34,Return kis kis ko file karna parta hai?,Roman Urdu,9,Filing returns,Should answer FAQ #9,urdu
+35,kon return file kare,Short / typo,9,Filing returns,Should answer FAQ #9,urdu
+36,"I earn a monthly salary, do I have to file a return?",Indirect / scenario,9,Filing returns,Should answer FAQ #9,english
+37,When is the last date to submit my annual tax return?,Paraphrase (English),10,Filing returns,Should answer FAQ #10,english
+38,Return file karne ki akhri tareekh kya hai?,Roman Urdu,10,Filing returns,Should answer FAQ #10,urdu
+39,return due date,Short / typo,10,Filing returns,Should answer FAQ #10,english
+40,Until which date can I file for this tax year without trouble?,Indirect / scenario,10,Filing returns,Should answer FAQ #10,english
+41,Can you explain the difference between a filer and a non filer?,Paraphrase (English),11,Filing returns,Should answer FAQ #11,english
+42,Filer aur non-filer mein kya farq hota hai?,Roman Urdu,11,Filing returns,Should answer FAQ #11,urdu
+43,filer nonfiler farq,Short / typo,11,Filing returns,Should answer FAQ #11,urdu
+44,Why do people say it is better to be on the filer list?,Indirect / scenario,11,Filing returns,Should answer FAQ #11,english
+45,What advantages do I get if I become a filer?,Paraphrase (English),12,Filing returns,Should answer FAQ #12,english
+46,Filer banne ka kya faida hai?,Roman Urdu,12,Filing returns,Should answer FAQ #12,urdu
+47,filer benefits,Short / typo,12,Filing returns,Should answer FAQ #12,english
+48,Will I pay less tax on bank withdrawals or property if I file?,Indirect / scenario,12,Filing returns,Should answer FAQ #12,english
+49,Walk me through submitting my return on IRIS,Paraphrase (English),13,Filing returns,Should answer FAQ #13,english
+50,"IRIS par return kaise file karte hain, tarteeb se batayein",Roman Urdu,13,Filing returns,Should answer FAQ #13,urdu
+51,how 2 file return iris,Short / typo,13,Filing returns,Should answer FAQ #13,english
+52,"I have logged in to IRIS, what do I click to start my return?",Indirect / scenario,13,Filing returns,Should answer FAQ #13,english
+53,How much fine will I pay if I submit my return after the due date?,Paraphrase (English),14,Filing returns,Should answer FAQ #14,english
+54,Late return file karne par kitna jurmana lagta hai?,Roman Urdu,14,Filing returns,Should answer FAQ #14,urdu
+55,late filing penalty,Short / typo,14,Filing returns,Should answer FAQ #14,english
+56,"I am a few days late with my return, will I get fined?",Indirect / scenario,14,Filing returns,Should answer FAQ #14,english
+57,What does a wealth statement mean and who has to submit it?,Paraphrase (English),15,Filing returns,Should answer FAQ #15,english
+58,Wealth statement kya hota hai aur kis ko dena hota hai?,Roman Urdu,15,Filing returns,Should answer FAQ #15,urdu
+59,wealth statment,Short / typo,15,Filing returns,Should answer FAQ #15,english
+60,"Do I have to list my house, car and savings when filing?",Indirect / scenario,15,Filing returns,Should answer FAQ #15,english
+61,Is it possible for a university student to file taxes?,Paraphrase (English),16,Filing returns,Should answer FAQ #16,english
+62,Kya student bhi tax return file kar sakta hai?,Roman Urdu,16,Filing returns,Should answer FAQ #16,urdu
+63,student tax filing,Short / typo,16,Filing returns,Should answer FAQ #16,english
+64,"I am 20 with a small online income and no job, can I still file?",Indirect / scenario,16,Filing returns,Should answer FAQ #16,english
+65,Do I have to pay tax on money I earn from freelancing?,Paraphrase (English),17,Freelancer income,Should answer FAQ #17,english
+66,Freelancing se jo paisa aata hai us par tax lagta hai?,Roman Urdu,17,Freelancer income,Should answer FAQ #17,urdu
+67,freelance tax,Short / typo,17,Freelancer income,Should answer FAQ #17,english
+68,"I earn dollars from clients abroad, is that income taxed?",Indirect / scenario,17,Freelancer income,Should answer FAQ #17,english
+69,How much tax will a freelancer have to pay?,Paraphrase (English),18,Freelancer income,Should answer FAQ #18,english
+70,Freelancers ke liye tax rate kitna hai?,Roman Urdu,18,Freelancer income,Should answer FAQ #18,urdu
+71,freelancer tax rate %,Short / typo,18,Freelancer income,Should answer FAQ #18,english
+72,What percentage of my freelance income goes to the government?,Indirect / scenario,18,Freelancer income,Should answer FAQ #18,english
+73,Does the government give any tax concession for IT exporters?,Paraphrase (English),19,Freelancer income,Should answer FAQ #19,english
+74,IT exports par koi khaas tax relief milti hai?,Roman Urdu,19,Freelancer income,Should answer FAQ #19,urdu
+75,it export relief,Short / typo,19,Freelancer income,Should answer FAQ #19,english
+76,Is there a lower tax rate for software developers who earn in foreign currency?,Indirect / scenario,19,Freelancer income,Should answer FAQ #19,english
+77,What exactly is the PSEB and why is it relevant to freelancers?,Paraphrase (English),20,Freelancer income,Should answer FAQ #20,english
+78,PSEB registration kya hoti hai?,Roman Urdu,20,Freelancer income,Should answer FAQ #20,urdu
+79,pseb kya h,Short / typo,20,Freelancer income,Should answer FAQ #20,urdu
+80,"Someone told me to get a PSEB certificate, what is that?",Indirect / scenario,20,Freelancer income,Should answer FAQ #20,english
+81,Who qualifies to sign up with PSEB as a freelancer?,Paraphrase (English),21,Freelancer income,Should answer FAQ #21,english
+82,Freelancer PSEB mein register hone ke liye kaun eligible hai?,Roman Urdu,21,Freelancer income,Should answer FAQ #21,urdu
+83,pseb eligibilty,Short / typo,21,Freelancer income,Should answer FAQ #21,english
+84,"I do video editing on Fiverr, can I register with PSEB?",Indirect / scenario,21,Freelancer income,Should answer FAQ #21,english
+85,What is the way to register with PSEB and which documents must I upload?,Paraphrase (English),22,Freelancer income,Should answer FAQ #22,english
+86,PSEB mein registration kaise karte hain aur kya documents lagte hain?,Roman Urdu,22,Freelancer income,Should answer FAQ #22,urdu
+87,pseb apply,Short / typo,22,Freelancer income,Should answer FAQ #22,english
+88,"I want to get my PSEB freelancer card, what are the steps?",Indirect / scenario,22,Freelancer income,Should answer FAQ #22,english
+89,What do I gain by being registered with PSEB?,Paraphrase (English),23,Freelancer income,Should answer FAQ #23,english
+90,PSEB registration ke kya fawaid hain?,Roman Urdu,23,Freelancer income,Should answer FAQ #23,urdu
+91,pseb benefits,Short / typo,23,Freelancer income,Should answer FAQ #23,english
+92,Is it worth registering with PSEB as a freelancer?,Indirect / scenario,23,Freelancer income,Should answer FAQ #23,english
+93,Must I open a company to do freelancing or is it fine to remain an individual?,Paraphrase (English),24,Freelancer income,Should answer FAQ #24,english
+94,Freelancing ke liye company banani paregi ya individual kaafi hai?,Roman Urdu,24,Freelancer income,Should answer FAQ #24,urdu
+95,business register karna zaroori?,Short / typo,24,Freelancer income,Should answer FAQ #24,urdu
+96,Can I just work under my own name without registering a firm?,Indirect / scenario,24,Freelancer income,Should answer FAQ #24,english
+97,What is the lawful method to get my Upwork earnings into Pakistan?,Paraphrase (English),25,Receiving payments,Should answer FAQ #25,english
+98,Upwork ya Fiverr ke paise legally kaise receive karun?,Roman Urdu,25,Receiving payments,Should answer FAQ #25,urdu
+99,upwork payment pakistan,Short / typo,25,Receiving payments,Should answer FAQ #25,english
+100,How do I withdraw my Fiverr balance to my local bank safely?,Indirect / scenario,25,Receiving payments,Should answer FAQ #25,english
+101,Is it okay to get my foreign payments in my normal savings account?,Paraphrase (English),26,Receiving payments,Should answer FAQ #26,english
+102,Kya main freelance payment apne personal account mein le sakta hun?,Roman Urdu,26,Receiving payments,Should answer FAQ #26,urdu
+103,personal account payment,Short / typo,26,Receiving payments,Should answer FAQ #26,english
+104,Do I need a separate business account to receive client money?,Indirect / scenario,26,Receiving payments,Should answer FAQ #26,english
+105,Can you describe what home remittance is for a freelancer?,Paraphrase (English),27,Receiving payments,Should answer FAQ #27,english
+106,Home remittance kya hoti hai aur freelancers ke liye kaise kaam karti hai?,Roman Urdu,27,Receiving payments,Should answer FAQ #27,urdu
+107,home remitance,Short / typo,27,Receiving payments,Should answer FAQ #27,english
+108,"My bank said my payment came as remittance, what does that mean?",Indirect / scenario,27,Receiving payments,Should answer FAQ #27,english
+109,Can freelancers in Pakistan use Payoneer legally?,Paraphrase (English),28,Receiving payments,Should answer FAQ #28,english
+110,Payoneer Pakistan mein chal sakta hai?,Roman Urdu,28,Receiving payments,Should answer FAQ #28,urdu
+111,payoneer allowed?,Short / typo,28,Receiving payments,Should answer FAQ #28,english
+112,Is it safe to use Payoneer to get paid from my clients?,Indirect / scenario,28,Receiving payments,Should answer FAQ #28,english
+113,Is there a cap on how much foreign money I can bring in?,Paraphrase (English),29,Receiving payments,Should answer FAQ #29,english
+114,Foreign income receive karne ki koi limit hai?,Roman Urdu,29,Receiving payments,Should answer FAQ #29,urdu
+115,remittance limit,Short / typo,29,Receiving payments,Should answer FAQ #29,english
+116,Can I receive a very large amount from an overseas client at once?,Indirect / scenario,29,Receiving payments,Should answer FAQ #29,english
+117,How can I have a bank account that holds dollars?,Paraphrase (English),30,Receiving payments,Should answer FAQ #30,english
+118,"Foreign currency account kya hota hai, main khol sakta hun?",Roman Urdu,30,Receiving payments,Should answer FAQ #30,urdu
+119,fcy account,Short / typo,30,Receiving payments,Should answer FAQ #30,english
+120,Can I keep my freelance earnings in USD instead of converting to rupees?,Indirect / scenario,30,Receiving payments,Should answer FAQ #30,english
+121,How can I prove my freelance earnings to a bank for a loan or credit card?,Paraphrase (English),31,Receiving payments,Should answer FAQ #31,english
+122,Bank freelance income ko income proof kaise maanta hai?,Roman Urdu,31,Receiving payments,Should answer FAQ #31,urdu
+123,income proof bank,Short / typo,31,Receiving payments,Should answer FAQ #31,english
+124,"My bank is asking for salary slip but I freelance, what can I show?",Indirect / scenario,31,Receiving payments,Should answer FAQ #31,english
+125,Will the bank cut any tax when my international payment arrives?,Paraphrase (English),32,Receiving payments,Should answer FAQ #32,english
+126,Foreign payment aane par bank tax kaat leta hai?,Roman Urdu,32,Receiving payments,Should answer FAQ #32,urdu
+127,tax cut on remittance,Short / typo,32,Receiving payments,Should answer FAQ #32,english
+128,Why did my bank deduct money when my client payment landed?,Indirect / scenario,32,Receiving payments,Should answer FAQ #32,english
+129,What should I do if the filing date has passed and I have not submitted?,Paraphrase (English),33,Common problems,Should answer FAQ #33,english
+130,Agar deadline miss ho jaye to kya karna chahiye?,Roman Urdu,33,Common problems,Should answer FAQ #33,urdu
+131,missed deadline,Short / typo,33,Common problems,Should answer FAQ #33,english
+132,"I forgot to file on time, is it too late now?",Indirect / scenario,33,Common problems,Should answer FAQ #33,english
+133,How can I amend a return that I already submitted?,Paraphrase (English),34,Common problems,Should answer FAQ #34,english
+134,Jo return file kar diya usay theek kaise karun?,Roman Urdu,34,Common problems,Should answer FAQ #34,urdu
+135,revise return,Short / typo,34,Common problems,Should answer FAQ #34,english
+136,"I made a mistake in my filed return, can I fix it?",Indirect / scenario,34,Common problems,Should answer FAQ #34,english
+137,"I received a letter from the tax department, how should I respond?",Paraphrase (English),35,Common problems,Should answer FAQ #35,english
+138,"FBR ka notice aa gaya hai, ab kya karun?",Roman Urdu,35,Common problems,Should answer FAQ #35,urdu
+139,fbr notice,Short / typo,35,Common problems,Should answer FAQ #35,english
+140,"Tax office sent me an email asking for documents, am I in trouble?",Indirect / scenario,35,Common problems,Should answer FAQ #35,english
+141,Where can I get assistance with tax problems?,Paraphrase (English),36,Common problems,Should answer FAQ #36,english
+142,FBR se madad lene ke liye helpline ya office kahan hai?,Roman Urdu,36,Common problems,Should answer FAQ #36,urdu
+143,fbr helpline number,Short / typo,36,Common problems,Should answer FAQ #36,english
+144,Who can I call or email if IRIS is not working for me?,Indirect / scenario,36,Common problems,Should answer FAQ #36,english
+145,How can I find out if a person is a filer?,Paraphrase (English),37,Common problems,Should answer FAQ #37,english
+146,Kisi ka filer status kaise check karte hain?,Roman Urdu,37,Common problems,Should answer FAQ #37,urdu
+147,atl check,Short / typo,37,Common problems,Should answer FAQ #37,english
+148,I want to verify whether my client is on the active taxpayer list,Indirect / scenario,37,Common problems,Should answer FAQ #37,english
+149,Where can I get a copy of my submitted return?,Paraphrase (English),38,Common problems,Should answer FAQ #38,english
+150,Filed return ki copy kahan se download hogi?,Roman Urdu,38,Common problems,Should answer FAQ #38,urdu
+151,download return pdf,Short / typo,38,Common problems,Should answer FAQ #38,english
+152,"I need proof that I filed my taxes for a visa, how do I get it?",Indirect / scenario,38,Common problems,Should answer FAQ #38,english
+153,Which documents should a freelancer save for tax purposes?,Paraphrase (English),39,Common problems,Should answer FAQ #39,english
+154,Freelancer ko tax ke liye kaun sa record sambhal ke rakhna chahiye?,Roman Urdu,39,Common problems,Should answer FAQ #39,urdu
+155,freelancer records,Short / typo,39,Common problems,Should answer FAQ #39,english
+156,How many years should I keep my invoices and bank statements?,Indirect / scenario,39,Common problems,Should answer FAQ #39,english
+157,What is the weather in Peshawar today?,Out of scope,NONE,,Should NOT match any FAQ (fallback),english
+158,Who won the cricket match yesterday?,Out of scope,NONE,,Should NOT match any FAQ (fallback),english
+159,Give me a recipe for biryani,Out of scope,NONE,,Should NOT match any FAQ (fallback),english
+160,How do I apply for a Pakistani passport?,Out of scope,NONE,,Should NOT match any FAQ (fallback),english
+161,What is the price of gold today?,Out of scope,NONE,,Should NOT match any FAQ (fallback),english
+162,Can you write a poem about love?,Out of scope,NONE,,Should NOT match any FAQ (fallback),english
+163,How do I renew my driving license?,Out of scope,NONE,,Should NOT match any FAQ (fallback),english
+164,Kal mausam kaisa rahega?,Out of scope,NONE,,Should NOT match any FAQ (fallback),urdu
+165,Mujhe pizza ka order karna hai,Out of scope,NONE,,Should NOT match any FAQ (fallback),urdu
+166,Bitcoin kharidna chahiye?,Out of scope,NONE,,Should NOT match any FAQ (fallback),urdu
+167,How do I pay my electricity bill?,Out of scope,NONE,,Should NOT match any FAQ (fallback),english
+168,What is the capital of France?,Out of scope,NONE,,Should NOT match any FAQ (fallback),english
+169,How do I apply for a visa to Canada?,Out of scope,NONE,,Should NOT match any FAQ (fallback),english
+170,Best laptop under 100000?,Out of scope,NONE,,Should NOT match any FAQ (fallback),english
+171,Meri shaadi ke liye dress suggest karo,Out of scope,NONE,,Should NOT match any FAQ (fallback),urdu
+172,What is the sales tax rate in the USA?,Out of scope,NONE,,Should NOT match any FAQ (fallback),english
+173,How do I file taxes with the IRS?,Out of scope,NONE,,Should NOT match any FAQ (fallback),english
+174,hello,Out of scope,NONE,,Should NOT match any FAQ (fallback),english
+175,asdfghjkl,Out of scope,NONE,,Should NOT match any FAQ (fallback),english
+176,How to learn Python?,Out of scope,NONE,,Should NOT match any FAQ (fallback),english
+177,How do I register for sales tax with FBR?,Related but not covered,NONE,,Should NOT match any FAQ (fallback / helpline),english
+178,What is the property tax rate in Punjab?,Related but not covered,NONE,,Should NOT match any FAQ (fallback / helpline),english
+179,How do I pay customs duty on imports?,Related but not covered,NONE,,Should NOT match any FAQ (fallback / helpline),english
+180,What is the zakat deduction rate?,Related but not covered,NONE,,Should NOT match any FAQ (fallback / helpline),english
+181,How do I open a bank account for my company?,Related but not covered,NONE,,Should NOT match any FAQ (fallback / helpline),english
