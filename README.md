@@ -50,8 +50,7 @@ I designed and built this chatbot myself. I wrote all of the code (`matcher.py`,
 
 ### Where I used AI
 
-AI was used only for the CSV data files (the FAQ answers, their verification labels and the test questions). None of the code was written by AI.
-
+I wrote the code myself. I used an AI assistant as a tutor and reviewer: it explained concepts, gave short example snippets to learn from (NLTK, TF-IDF, cosine similarity, Streamlit basics), and reviewed my code and test results. I made the design decisions, wrote and debugged the final code, and ran the evaluation. AI also helped research and draft the FAQ answers and test questions.
 ## Features
 
 - **Two answer languages:** English or Roman Urdu, chosen in the sidebar.
