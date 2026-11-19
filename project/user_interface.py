@@ -30,7 +30,7 @@ if clr_chat:
 
 st.sidebar.markdown("")
 with st.sidebar.expander("Developer Settings"):
-    threshold_score = st.slider("Confidence threshold: ", 0.0, 1.0, 0.3)
+    threshold_score = st.slider("Confidence threshold: ", 0.0, 1.0, 0.4)
     st.caption("Below this score, the bot says it doesn’t know.")
 
 st.title("Pakistan Tax & Freelancer FAQ Bot")
@@ -44,8 +44,11 @@ elif b2:
     question = "How do I register with PSEB?"
 elif b3:
     question = "Freelancing par tax kitna lagta hai?"
-else:
-    question = st.chat_input("Ask a question: ")
+
+typed_question = st.chat_input("Ask a question: ")
+
+if question is None:
+    question = typed_question
 
 if question:
     ans = get_answer(vectorizer, training_matrix, question, lang, id_dataset, df, threshold_score)
