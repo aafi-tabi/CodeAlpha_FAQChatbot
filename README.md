@@ -189,9 +189,6 @@ My first test set had 181 questions and scored about **96%** (174/181 at 0.4). B
 - **No conversation memory.** Each question is answered on its own.
 - **Small, partly self-written test set** (50 questions).
 
-### Known issue
-`evaluate.py` passes the language label `"urdu"` from the test file, while the app uses `"roman urdu"`, so evaluation returns English answers. Matching and the reported numbers are not affected.
-
 ## Run it locally
 
 Requires **Python 3.12 or newer** (the app uses nested quotes inside f-strings).
