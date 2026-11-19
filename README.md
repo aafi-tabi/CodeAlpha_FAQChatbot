@@ -118,8 +118,7 @@ Answer in English or Roman Urdu     "Can't help with this" + suggested topics
 | `last_verified` | Verification status and date |
 
 ### How the answers were made and checked
-The answers were researched and drafted with AI assistance from official FBR, PSEB and SBP pages, then reviewed and edited. [Edit this sentence to match what you actually did.] The `last_verified` column records the status of each answer as of 14 and 19 November 2026, and the app shows it under every answer:
-
+The answers were researched and drafted with AI assistance from official FBR, PSEB and SBP pages, then reviewed and edited by using an AI.
 | Status | Answers |
 |---|---:|
 | Verified | 9 |
@@ -128,12 +127,11 @@ The answers were researched and drafted with AI assistance from official FBR, PS
 | Correct with edits / Mostly correct with edits | 5 |
 | Not independently verified | 4 |
 
-I also spot-checked [LIST THE OFFICIAL PAGES YOU ACTUALLY OPENED, OR DELETE THIS SENTENCE] myself. "Verified" here means the claims matched the official pages consulted on that date, not that the answer is legally guaranteed.
 
 ## Evaluation
 
 ### Test sets
-`faq_test_questions_50.csv` has **50 questions** written in different words from the FAQ phrasings. [STATE WHO WROTE THEM.] None appears word for word in the phrasings, but 4 are typo versions of existing phrasings (for example *"iris pasword reset"*), which flatters the short / typo score.
+`faq_test_questions_50.csv` has **50 questions** written in different words from the FAQ phrasings. None appears word for word in the phrasings, but 4 are typo versions of existing phrasings (for example *"iris pasword reset"*), which flatters the short / typo score.
 
 | Test type | Questions |
 |---|---:|
