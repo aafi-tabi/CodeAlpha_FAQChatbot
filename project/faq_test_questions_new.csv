@@ -1,0 +1,21 @@
+test_id,test_question,test_type,expected_faq_id,expected_category,expected_behavior,lang
+1,Is money from my foreign client the same thing as what my uncle sends from Dubai?,Indirect / scenario,27,Receiving payments,Should answer FAQ #27,english
+2,"bhai mere paas sirf shanakhti card hai, tax walay alag se koi number dete hain kya?",Roman Urdu,1,Registration,Should answer FAQ #1,urdu
+3,Is the government charging money to sign me up as a taxpayer?,Indirect / scenario,8,Registration,Should answer FAQ #8,english
+4,"i quit my desk job and now take gigs on Fiverr, will the taxman come after me?",Indirect / scenario,17,Freelancer income,Should answer FAQ #17,english
+5,"Mera client London mein hai, dollars aate hain, kitna hissa kat jata hai?",Roman Urdu,18,Freelancer income,Should answer FAQ #18,urdu
+6,"Forgot to submit anything by the cutoff, am I doomed?",Indirect / scenario,33,Common problems,Should answer FAQ #33,english
+7,"Website par ghusne ki koshish kar raha hoon par system keh raha hai wrong credentials, ab kya?",Roman Urdu,6,Registration,Should answer FAQ #6,urdu
+8,How can I prove to my landlord that I actually earn from online gigs?,Indirect / scenario,31,Receiving payments,Should answer FAQ #31,english
+9,"Can my younger brother, still in college, get on the list of taxpayers?",Indirect / scenario,16,Filing returns,Should answer FAQ #16,english
+10,"Kisi supplier ne kaha woh active hai, main kaise confirm karun?",Roman Urdu,37,Common problems,Should answer FAQ #37,urdu
+11,I put the wrong income figure in my submission yesterday. Can it be fixed?,Indirect / scenario,34,Common problems,Should answer FAQ #34,english
+12,"An official-looking letter came by email asking for papers, looks suspicious to me",Indirect / scenario,35,Common problems,Should answer FAQ #35,english
+13,Do I need to create a firm or can I just trade under my own name for online work?,Paraphrase (English),24,Freelancer income,Should answer FAQ #24,english
+14,Konsa government idara hai jo software exporters ko certificate deta hai?,Roman Urdu,20,Freelancer income,Should answer FAQ #20,urdu
+15,Why did my bank hold back a small percentage when my gig money landed?,Indirect / scenario,32,Receiving payments,Should answer FAQ #32,english
+16,Is it okay to get paid into my regular savings account or do I need something special?,Paraphrase (English),26,Receiving payments,Should answer FAQ #26,english
+17,"mujhe apne paise rupay mein badle baghair dollar mein hi rakhne hain, bank mein kaisa khata lena hoga?",Roman Urdu,30,Receiving payments,Should answer FAQ #30,urdu
+18,How long should I hold on to my invoices and statements in case of an audit?,Paraphrase (English),39,Common problems,Should answer FAQ #39,english
+19,"I need a printout showing I submitted, where do I find it in the portal?",Indirect / scenario,38,Common problems,Should answer FAQ #38,english
+20,can you recommend a good dentist in Lahore,Out of scope,NONE,,Should NOT match any FAQ (fallback),english
