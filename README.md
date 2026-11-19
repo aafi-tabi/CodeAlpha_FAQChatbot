@@ -227,7 +227,6 @@ NLTK data (`punkt`, `punkt_tab`, `stopwords`, `wordnet`) downloads when `matcher
 │   ├── faq_test_questions_50.csv   # main test set (50 questions)
 │   ├── faq_test_questions.csv      # earlier test set (181 questions, overlaps phrasings)
 │   ├── faq_test_questions_new.csv  # extra test set (20 questions)
-│   └── faqs_new.csv                # earlier version of the knowledge base
 ├── .streamlit/config.toml          # theme settings
 ├── requirements.txt
 └── README.md
