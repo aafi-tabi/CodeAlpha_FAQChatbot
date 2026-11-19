@@ -1,0 +1,51 @@
+test_id,test_question,test_type,expected_faq_id,expected_category,expected_behavior,lang
+1,"Is my identity card number enough, or does FBR issue another number for individuals?",Paraphrase (English),1,Registration,Should answer FAQ #1,english
+2,What proof of premises is needed when a firm signs up with the tax authority?,Paraphrase (English),4,Registration,Should answer FAQ #4,english
+3,Can I change my registered email on the portal myself?,Paraphrase (English),7,Registration,Should answer FAQ #7,english
+4,By what date do companies need to lodge their annual returns?,Paraphrase (English),10,Filing returns,Should answer FAQ #10,english
+5,What charges apply when someone lodges their annual return after the cutoff?,Paraphrase (English),14,Filing returns,Should answer FAQ #14,english
+6,How does the Pakistan Software Export Board help individuals working in tech?,Paraphrase (English),20,Freelancer income,Should answer FAQ #20,english
+7,Are there extra checks when a single foreign payment is very large?,Paraphrase (English),29,Receiving payments,Should answer FAQ #29,english
+8,Are international wallets like Payoneer an accepted way for Pakistanis to get paid?,Paraphrase (English),28,Receiving payments,Should answer FAQ #28,english
+9,What happens to my Active Taxpayer status if I lodge late?,Paraphrase (English),33,Common problems,Should answer FAQ #33,english
+10,NTN number ka kya maqsad hota hai aur kis ke liye hai?,Roman Urdu,1,Registration,Should answer FAQ #1,urdu
+11,Ghar se online kaam karne wale ko FBR mein register hona parta hai?,Roman Urdu,2,Registration,Should answer FAQ #2,urdu
+12,"IRIS mein mera email ya address badalna hai, kahan se hoga?",Roman Urdu,7,Registration,Should answer FAQ #7,urdu
+13,Salary wale bande ko bhi wealth statement deni hoti hai kya?,Roman Urdu,15,Filing returns,Should answer FAQ #15,urdu
+14,Filer ban jaun to bank se paise nikalwane par kya fark parega?,Roman Urdu,12,Filing returns,Should answer FAQ #12,urdu
+15,"Fiverr par kaam karta hoon, PSEB wala certificate banwana chahiye ya nahi?",Roman Urdu,23,Freelancer income,Should answer FAQ #23,urdu
+16,Ek hi dafa mein bohat bari raqam bahar se aa jaye to bank kuch poochega?,Roman Urdu,29,Receiving payments,Should answer FAQ #29,urdu
+17,"Meri return mein ghalat amount likha gaya, sudhar sakta hoon?",Roman Urdu,34,Common problems,Should answer FAQ #34,urdu
+18,"Tax walon ka email aaya hai ke kaghzat bhejo, asli hai ya fraud?",Roman Urdu,35,Common problems,Should answer FAQ #35,urdu
+19,Pichle saal ka submit kiya hua form dobara kahan se nikalun?,Roman Urdu,38,Common problems,Should answer FAQ #38,urdu
+20,tax no kese milta,Short / typo,3,Registration,Should answer FAQ #3,urdu
+21,iris pasword reset,Short / typo,6,Registration,Should answer FAQ #6,english
+22,psab registration,Short / typo,22,Freelancer income,Should answer FAQ #22,english
+23,weath statmnt who,Short / typo,15,Filing returns,Should answer FAQ #15,english
+24,late retrn fine,Short / typo,14,Filing returns,Should answer FAQ #14,english
+25,ATL sms,Short / typo,37,Common problems,Should answer FAQ #37,english
+26,dollar acount,Short / typo,30,Receiving payments,Should answer FAQ #30,english
+27,prc kya hai,Short / typo,31,Receiving payments,Should answer FAQ #31,urdu
+28,fbr call number,Short / typo,36,Common problems,Should answer FAQ #36,english
+29,0.25 tax kya,Short / typo,19,Freelancer income,Should answer FAQ #19,urdu
+30,"I run a small tailoring shop from home and my neighbour says I must get on FBR's books, is that right?",Indirect / scenario,2,Registration,Should answer FAQ #2,english
+31,"My employer cuts tax from my salary every month, do I still have to submit anything myself?",Indirect / scenario,9,Filing returns,Should answer FAQ #9,english
+32,"I bought a flat last month and my agent said being a non-filer costs more, why?",Indirect / scenario,11,Filing returns,Should answer FAQ #11,english
+33,"I'm a graphic designer paid by a Canadian studio, what percentage does the state take?",Indirect / scenario,18,Freelancer income,Should answer FAQ #18,english
+34,"I just earned my first $200 on Upwork, how do I get it to my bank here without breaking any rules?",Indirect / scenario,25,Receiving payments,Should answer FAQ #25,english
+35,Do I have to call my client's payment a remittance when I report my income?,Indirect / scenario,27,Receiving payments,Should answer FAQ #27,english
+36,"I'm self-employed with no registered company, can PSEB still take me?",Indirect / scenario,21,Freelancer income,Should answer FAQ #21,english
+37,I want to keep my yearly earnings in an account that can pay for my Canva subscription directly in dollars,Indirect / scenario,30,Receiving payments,Should answer FAQ #30,english
+38,Bank manager told me to bring something showing where my overseas money came from,Indirect / scenario,31,Receiving payments,Should answer FAQ #31,english
+39,I submitted my return but now it shows up under unfinished tasks,Indirect / scenario,38,Common problems,Should answer FAQ #38,english
+40,How do I reach a human at the tax authority since the portal keeps crashing on me?,Indirect / scenario,36,Common problems,Should answer FAQ #36,english
+41,"I am applying for a car loan, what should I keep stored from my online work for the last few years?",Indirect / scenario,39,Common problems,Should answer FAQ #39,english
+42,Which mobile network has the best 4G in Karachi?,Out of scope,NONE,,Should NOT match any FAQ (fallback),english
+43,Aaj raat ke khane mein kya banaun?,Out of scope,NONE,,Should NOT match any FAQ (fallback),urdu
+44,How many runs did Babar score in the last T20?,Out of scope,NONE,,Should NOT match any FAQ (fallback),english
+45,Translate 'good evening' into French,Out of scope,NONE,,Should NOT match any FAQ (fallback),english
+46,Mujhe naukri ke liye CV likh do,Out of scope,NONE,,Should NOT match any FAQ (fallback),urdu
+47,How do I convert a PDF to Word?,Out of scope,NONE,,Should NOT match any FAQ (fallback),english
+48,How much income tax is charged on rental income from a property?,Related but not covered,NONE,,Should NOT match any FAQ (fallback / helpline),english
+49,How do I register my company with SECP?,Related but not covered,NONE,,Should NOT match any FAQ (fallback / helpline),english
+50,Kya biwi ke naam gift dene par tax dena parega?,Related but not covered,NONE,,Should NOT match any FAQ (fallback / helpline),urdu
