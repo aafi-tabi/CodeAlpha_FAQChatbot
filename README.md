@@ -263,7 +263,7 @@ I don't plan to continue this project, so these are suggestions for anyone who w
 
 ## Author
 
-**[YOUR NAME]**, 2nd-year Software Engineering student at the University of Gujrat.
-[LinkedIn](https://linkedin.com/in/aafiaaftab) · [GitHub](https://github.com/[YOUR-USERNAME])
+**Aafia Aftab**, 2nd-year Software Engineering student at the University of Gujrat.
+[LinkedIn](https://linkedin.com/in/aafiaaftab) · [GitHub](https://github.com/aafi-tabi)
 
 *Built during the CodeAlpha AI Internship.*
