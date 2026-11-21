@@ -231,7 +231,6 @@ NLTK data (`punkt`, `punkt_tab`, `stopwords`, `wordnet`) downloads when `matcher
 
 ## Future improvements
 
-I don't plan to continue this project, so these are suggestions for anyone who wants to build on it (you're welcome to fork it):
 
 - **Sentence embeddings.** Try multilingual embeddings and compare them with TF-IDF using `evaluate.py`. They may help paraphrases. Roman Urdu support is uncertain and needs testing.
 - **Hybrid retrieval** (TF-IDF plus embeddings), evaluated on the same test set.
